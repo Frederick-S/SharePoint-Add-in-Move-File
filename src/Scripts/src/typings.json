@@ -1,0 +1,7 @@
+{
+  "globalDependencies": {
+    "jquery": "registry:dt/jquery#1.10.0+20160620094458",
+    "sharepoint": "registry:dt/sharepoint#0.0.0+20160602140352",
+    "vue": "registry:dt/vue#1.0.21+20160423143248"
+  }
+}

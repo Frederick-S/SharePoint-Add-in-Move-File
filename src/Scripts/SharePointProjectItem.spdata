@@ -2,10 +2,23 @@
 <ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
   <Files>
     <ProjectItemFile Source="Elements.xml" Target="Scripts\" Type="ElementManifest" />
-    <ProjectItemFile Source="App.js" Target="Scripts\" Type="ElementFile" />
-    <ProjectItemFile Source="jquery-1.9.1.min.map" Target="Scripts\" Type="ElementFile" />
-    <ProjectItemFile Source="jquery-1.9.1.min.js" Target="Scripts\" Type="ElementFile" />
-    <ProjectItemFile Source="jquery-1.9.1.js" Target="Scripts\" Type="ElementFile" />
-    <ProjectItemFile Source="jquery-1.9.1.intellisense.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="vue.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery.fabric.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-3.0.0.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="src\typings\index.d.ts" Target="Scripts\src\typings\" Type="ElementFile" />
+    <ProjectItemFile Source="src\typings\globals\jquery\index.d.ts" Target="Scripts\src\typings\globals\jquery\" Type="ElementFile" />
+    <ProjectItemFile Source="src\typings\globals\jquery\typings.json" Target="Scripts\src\typings\globals\jquery\" Type="ElementFile" />
+    <ProjectItemFile Source="src\typings\globals\sharepoint\index.d.ts" Target="Scripts\src\typings\globals\sharepoint\" Type="ElementFile" />
+    <ProjectItemFile Source="src\typings\globals\sharepoint\typings.json" Target="Scripts\src\typings\globals\sharepoint\" Type="ElementFile" />
+    <ProjectItemFile Source="src\typings.json" Target="Scripts\src\" Type="ElementFile" />
+    <ProjectItemFile Source="src\typings\globals\vue\index.d.ts" Target="Scripts\src\typings\globals\vue\" Type="ElementFile" />
+    <ProjectItemFile Source="src\typings\globals\vue\typings.json" Target="Scripts\src\typings\globals\vue\" Type="ElementFile" />
+    <ProjectItemFile Source="src\tsconfig.json" Target="Scripts\src\" Type="ElementFile" />
+    <ProjectItemFile Source="src\index.ts" Target="Scripts\src\" Type="ElementFile" />
+    <ProjectItemFile Source="src\package.json" Target="Scripts\src\" Type="ElementFile" />
+    <ProjectItemFile Source="src\webpack.config.js" Target="Scripts\src\" Type="ElementFile" />
+    <ProjectItemFile Source="src\webpack.config.release.js" Target="Scripts\src\" Type="ElementFile" />
+    <ProjectItemFile Source="app.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="src\test.ts" Target="Scripts\src\" Type="ElementFile" />
   </Files>
 </ProjectItem>

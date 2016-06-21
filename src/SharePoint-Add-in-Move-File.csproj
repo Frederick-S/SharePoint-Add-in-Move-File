@@ -43,10 +43,17 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Content\fabric.components.min.css" />
+    <Content Include="Content\fabric.min.css" />
+    <Content Include="Scripts\app.js" />
+    <Content Include="Scripts\jquery-3.0.0.min.js" />
+    <Content Include="Scripts\jquery.fabric.min.js" />
+    <Content Include="Scripts\src\webpack.config.js" />
+    <Content Include="Scripts\src\webpack.config.release.js" />
+    <Content Include="Scripts\vue.min.js" />
     <None Include="MenuItemCustomActionMoveFile\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{f381987c-314b-48f8-ba0f-fe7aed56919d}</SharePointProjectItemId>
     </None>
-    <None Include="packages.config" />
     <None Include="Pages\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{0cc9abe4-6f3b-4df2-8d2b-58d1fa378c59}</SharePointProjectItemId>
     </None>
@@ -55,18 +62,18 @@
     </Content>
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
+    <None Include="Scripts\src\package.json" />
+    <None Include="Scripts\src\tsconfig.json" />
+    <None Include="Scripts\src\typings.json" />
+    <None Include="Scripts\src\typings\globals\jquery\typings.json" />
+    <None Include="Scripts\src\typings\globals\sharepoint\typings.json" />
+    <None Include="Scripts\src\typings\globals\vue\typings.json" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Scripts\jquery-1.9.1.min.map" />
     <None Include="Scripts\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{0c06de1c-e1cf-409f-87b9-e0984c141d83}</SharePointProjectItemId>
     </None>
     <Content Include="Scripts\Elements.xml" />
-    <Content Include="Scripts\App.js" />
-    <Content Include="Scripts\jquery-1.9.1.intellisense.js" />
-    <Content Include="Scripts\jquery-1.9.1.js" />
-    <Content Include="Scripts\jquery-1.9.1.min.js" />
-    <Content Include="Scripts\_references.js" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Content\SharePointProjectItem.spdata">
@@ -102,6 +109,15 @@
     <AppManifestFile Include="AppManifest.xml">
       <SubType>Designer</SubType>
     </AppManifestFile>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <TypeScriptCompile Include="Scripts\src\index.ts" />
+    <TypeScriptCompile Include="Scripts\src\test.ts" />
+    <TypeScriptCompile Include="Scripts\src\typings\globals\jquery\index.d.ts" />
+    <TypeScriptCompile Include="Scripts\src\typings\globals\sharepoint\index.d.ts" />
+    <TypeScriptCompile Include="Scripts\src\typings\globals\vue\index.d.ts" />
+    <TypeScriptCompile Include="Scripts\src\typings\index.d.ts" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
