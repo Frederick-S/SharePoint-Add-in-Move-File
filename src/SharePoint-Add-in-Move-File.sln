@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharePoint-Add-in-Move-File", "SharePoint-Add-in-Move-File.csproj", "{CEB1EDA4-0E86-477F-B9E9-25D6020D2DE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEB1EDA4-0E86-477F-B9E9-25D6020D2DE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEB1EDA4-0E86-477F-B9E9-25D6020D2DE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEB1EDA4-0E86-477F-B9E9-25D6020D2DE6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CEB1EDA4-0E86-477F-B9E9-25D6020D2DE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEB1EDA4-0E86-477F-B9E9-25D6020D2DE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEB1EDA4-0E86-477F-B9E9-25D6020D2DE6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
