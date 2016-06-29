@@ -19,6 +19,9 @@
     <ProjectItemFile Source="src\webpack.config.js" Target="Scripts\src\" Type="ElementFile" />
     <ProjectItemFile Source="src\webpack.config.release.js" Target="Scripts\src\" Type="ElementFile" />
     <ProjectItemFile Source="app.js" Target="Scripts\" Type="ElementFile" />
-    <ProjectItemFile Source="src\test.ts" Target="Scripts\src\" Type="ElementFile" />
+    <ProjectItemFile Source="src\typings\globals\query-string\index.d.ts" Target="Scripts\src\typings\globals\query-string\" Type="ElementFile" />
+    <ProjectItemFile Source="src\typings\globals\query-string\typings.json" Target="Scripts\src\typings\globals\query-string\" Type="ElementFile" />
+    <ProjectItemFile Source="src\typings\globals\microsoft.ajax\index.d.ts" Target="Scripts\src\typings\globals\microsoft.ajax\" Type="ElementFile" />
+    <ProjectItemFile Source="src\typings\globals\microsoft.ajax\typings.json" Target="Scripts\src\typings\globals\microsoft.ajax\" Type="ElementFile" />
   </Files>
 </ProjectItem>
