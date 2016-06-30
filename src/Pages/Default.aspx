@@ -5,18 +5,20 @@
 
 <asp:Content ContentPlaceHolderID="PlaceHolderAdditionalPageHead" runat="server">
     <link rel="Stylesheet" type="text/css" href="../Content/App.css" />
+    <link rel="Stylesheet" type="text/css"href="../Content/fabric.min.css" />
+    <link rel="Stylesheet" type="text/css"href="../Content/fabric.components.min.css" />
 </asp:Content>
 
 <%-- The markup and script in the following Content element will be placed in the <body> of the page --%>
 <asp:Content ContentPlaceHolderID="PlaceHolderMain" runat="server">
-    <div>
-        <p id="message">
-            <!-- The following content will be replaced with the user name when you run the app - see App.js -->
-            initializing...
-        </p>
+    <div id="app">
+        <div class="ms-Spinner loading"></div>
     </div>
     <script type="text/javascript" src="../Scripts/vue.min.js"></script>
     <script type="text/javascript" src="../Scripts/jquery-3.0.0.min.js"></script>
     <script type="text/javascript" src="../Scripts/jquery.fabric.min.js"></script>
     <script type="text/javascript" src="../Scripts/app.js"></script>
+    <script type="text/javascript">
+        fabric.Spinner($('.ms-Spinner').get(0));
+    </script>
 </asp:Content>

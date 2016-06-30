@@ -62,10 +62,13 @@
     </Content>
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
+    <None Include="Scripts\app.js.map" />
     <None Include="Scripts\src\package.json" />
     <None Include="Scripts\src\tsconfig.json" />
     <None Include="Scripts\src\typings.json" />
     <None Include="Scripts\src\typings\globals\jquery\typings.json" />
+    <None Include="Scripts\src\typings\globals\microsoft.ajax\typings.json" />
+    <None Include="Scripts\src\typings\globals\query-string\typings.json" />
     <None Include="Scripts\src\typings\globals\sharepoint\typings.json" />
     <None Include="Scripts\src\typings\globals\vue\typings.json" />
   </ItemGroup>
@@ -113,8 +116,9 @@
   <ItemGroup />
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\src\index.ts" />
-    <TypeScriptCompile Include="Scripts\src\test.ts" />
     <TypeScriptCompile Include="Scripts\src\typings\globals\jquery\index.d.ts" />
+    <TypeScriptCompile Include="Scripts\src\typings\globals\microsoft.ajax\index.d.ts" />
+    <TypeScriptCompile Include="Scripts\src\typings\globals\query-string\index.d.ts" />
     <TypeScriptCompile Include="Scripts\src\typings\globals\sharepoint\index.d.ts" />
     <TypeScriptCompile Include="Scripts\src\typings\globals\vue\index.d.ts" />
     <TypeScriptCompile Include="Scripts\src\typings\index.d.ts" />

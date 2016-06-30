@@ -9,3 +9,7 @@ function getFileServerRelativeUrl(): JQueryPromise<any> {
 
     return deferred.promise();
 }
+
+new Vue({
+    el: '#app'
+});

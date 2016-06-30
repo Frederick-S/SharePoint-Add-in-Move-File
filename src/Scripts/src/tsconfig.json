@@ -3,8 +3,7 @@
     "module": "commonjs",
     "target": "ES5"
   },
-  "exclude": [
-    "typings",
-    "node_modules"
+  "files": [
+    "index.ts"
   ]
 }

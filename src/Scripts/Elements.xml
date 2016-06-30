@@ -5,9 +5,6 @@
     <File Path="Scripts\jquery.fabric.min.js" Url="Scripts/jquery.fabric.min.js" ReplaceContent="TRUE" />
     <File Path="Scripts\jquery-3.0.0.min.js" Url="Scripts/jquery-3.0.0.min.js" ReplaceContent="TRUE" />
     <File Path="Scripts\app.js" Url="Scripts/app.js" ReplaceContent="TRUE" />
-    <File Path="Scripts\src\typings\globals\query-string\index.d.ts" Url="Scripts/src/typings/globals/query-string/index.d.ts" ReplaceContent="TRUE" />
-    <File Path="Scripts\src\typings\globals\query-string\typings.json" Url="Scripts/src/typings/globals/query-string/typings.json" ReplaceContent="TRUE" />
-    <File Path="Scripts\src\typings\globals\microsoft.ajax\index.d.ts" Url="Scripts/src/typings/globals/microsoft.ajax/index.d.ts" ReplaceContent="TRUE" />
-    <File Path="Scripts\src\typings\globals\microsoft.ajax\typings.json" Url="Scripts/src/typings/globals/microsoft.ajax/typings.json" ReplaceContent="TRUE" />
+    <File Path="Scripts\app.js.map" Url="Scripts/app.js.map" ReplaceContent="TRUE" />
   </Module>
 </Elements>
